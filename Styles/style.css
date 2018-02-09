@@ -1,0 +1,111 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: arial,sans-serif;
+  display: block;
+}
+
+.content{
+  margin: 0 auto;
+  padding: 0;
+  width:66%;
+
+}
+
+#gLogo{
+  margin: 0 auto;
+  margin-bottom: 8px;
+  display: block;
+}
+
+#searchIn{
+  margin:0 auto;
+  display: block;
+  width: 66%;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid;
+  border-color: #EEEEEE;
+  color: #212121;
+  -moz-box-shadow: 3px 3px 3px 3px #EEEEEE;
+  -webkit-box-shadow: 1px 3px 5px #BDBDBD;
+}
+
+.buttons {
+  margin:0 auto;
+  display: block;
+  width: 33%;
+}
+
+#signInBtn {
+  background-color: #3F51B5;
+  color: white;
+  width: 90px;
+  text-align: center;
+  height:30px;
+  float:right;
+}
+
+p {
+  margin: 0 auto;
+  width: 32%;
+}
+
+button{
+  background-color: #EEEEEE;
+  color: #424242;
+  text-decoration: none;
+  height: 40px;
+  width: 135px;
+  border: none;
+}
+
+.topNav{
+  width: 100%;
+  height: 43px;
+  margin: 15px 0px;
+  display: inline;
+  float: right;
+  margin-bottom: 140px;
+}
+
+.topNav a, .bottomRightNav a{
+  display: inline;
+  float: right;
+}
+
+.bottomLeftNav a{
+  float:left;
+}
+
+a{
+  font-size: 14px;
+  margin: 4px;
+  padding: 0px 4px;
+  text-decoration: none;
+  color: #424242;
+}
+
+footer {
+  width: 100%;
+  height: 18px;
+  position: absolute;
+  bottom: 0px;
+  margin:0;
+  padding: 6px 0px;
+  background-color: #EEEEEE;
+  display: inline;
+}
+
+#altOffering,#altOfferingLink {
+  font-size: 13px;
+}
+
+#altOfferingLink {
+  color:blue;
+}
+
+#gSearchBtn,#luckyBtn{
+  margin-left: 1.5px;
+  margin-right: 1.5px;
+}
