@@ -1,0 +1,1 @@
+This is a project done for The Web101 course of The Odin Project. The project consist of creating a clone of the Google search page. More info can be found at [TOP HTML-CSS Project](https://www.theodinproject.com/courses/web-development-101/lessons/html-css).
