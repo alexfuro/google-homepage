@@ -1,3 +1,20 @@
+/* Header styles */
+#signInBtn {
+  background-color: #3F51B5;
+  color: white;
+  width: 90px;
+  text-align: center;
+  height: 30px;
+  float: right;
+}
+.topNav {
+  width: 100%;
+  height: 43px;
+  margin: 15px 0px;
+  float: right;
+  margin-bottom: 140px;
+}
+/* General Styles */
 body {
   margin: 0;
   padding: 0;
@@ -8,6 +25,30 @@ body {
   padding: 0;
   width: 66%;
 }
+.buttons {
+  margin: 0 auto;
+  width: 33%;
+}
+p {
+  margin: 0 auto;
+  width: 32%;
+}
+button {
+  background-color: #EEEEEE;
+  color: #424242;
+  text-decoration: none;
+  height: 40px;
+  width: 135px;
+  border: none;
+}
+a {
+  font-size: 14px;
+  margin: 4px;
+  padding: 0px 4px;
+  text-decoration: none;
+  color: #424242;
+}
+/* Searchbox and logo styles */
 #gLogo {
   display: block;
   margin: 0 auto;
@@ -25,51 +66,19 @@ body {
   -moz-box-shadow: 3px 3px 3px 3px #EEEEEE;
   -webkit-box-shadow: 1px 3px 5px #BDBDBD;
 }
-.buttons {
-  margin: 0 auto;
-  width: 33%;
+#gSearchBtn,
+#luckyBtn {
+  margin-left: 1.5px;
+  margin-right: 1.5px;
 }
-#signInBtn {
-  background-color: #3F51B5;
-  color: white;
-  width: 90px;
-  text-align: center;
-  height: 30px;
-  float: right;
+#altOffering,
+#altOfferingLink {
+  font-size: 13px;
 }
-p {
-  margin: 0 auto;
-  width: 32%;
+#altOfferingLink {
+  color: blue;
 }
-button {
-  background-color: #EEEEEE;
-  color: #424242;
-  text-decoration: none;
-  height: 40px;
-  width: 135px;
-  border: none;
-}
-.topNav {
-  width: 100%;
-  height: 43px;
-  margin: 15px 0px;
-  float: right;
-  margin-bottom: 140px;
-}
-.topNav a,
-.bottomRightNav a {
-  float: right;
-}
-.bottomLeftNav a{
-  float: left;
-}
-a {
-  font-size: 14px;
-  margin: 4px;
-  padding: 0px 4px;
-  text-decoration: none;
-  color: #424242;
-}
+/* Footer styles */
 footer {
   width: 100%;
   height: 18px;
@@ -79,15 +88,10 @@ footer {
   padding: 6px 0px;
   background-color: #EEEEEE;
 }
-#altOffering,
-#altOfferingLink {
-  font-size: 13px;
+.topNav a,
+.bottomRightNav a {
+  float: right;
 }
-#altOfferingLink {
-  color: blue;
-}
-#gSearchBtn,
-#luckyBtn {
-  margin-left: 1.5px;
-  margin-right: 1.5px;
+.bottomLeftNav a{
+  float: left;
 }
