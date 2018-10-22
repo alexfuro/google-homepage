@@ -56,7 +56,8 @@ button {
   float: right;
   margin-bottom: 140px;
 }
-.topNav a, .bottomRightNav a {
+.topNav a,
+.bottomRightNav a {
   float: right;
 }
 .bottomLeftNav a{
@@ -78,13 +79,15 @@ footer {
   padding: 6px 0px;
   background-color: #EEEEEE;
 }
-#altOffering,#altOfferingLink {
+#altOffering,
+#altOfferingLink {
   font-size: 13px;
 }
 #altOfferingLink {
   color: blue;
 }
-#gSearchBtn,#luckyBtn {
+#gSearchBtn,
+#luckyBtn {
   margin-left: 1.5px;
   margin-right: 1.5px;
 }
