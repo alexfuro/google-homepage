@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: arial,sans-serif;
-  display: block;
 }
 
 .content {
@@ -13,14 +12,14 @@ body {
 }
 
 #gLogo {
+  display: block;
   margin: 0 auto;
   margin-bottom: 8px;
-  display: block;
 }
 
 #searchIn {
-  margin:0 auto;
   display: block;
+  margin: 0 auto;
   width: 66%;
   font-size: 16px;
   padding: 15px;
@@ -32,8 +31,7 @@ body {
 }
 
 .buttons {
-  margin:0 auto;
-  display: block;
+  margin: 0 auto;
   width: 33%;
 }
 
@@ -64,13 +62,11 @@ button {
   width: 100%;
   height: 43px;
   margin: 15px 0px;
-  display: inline;
   float: right;
   margin-bottom: 140px;
 }
 
 .topNav a, .bottomRightNav a {
-  display: inline;
   float: right;
 }
 
@@ -94,7 +90,6 @@ footer {
   margin: 0;
   padding: 6px 0px;
   background-color: #EEEEEE;
-  display: inline;
 }
 
 #altOffering,#altOfferingLink {
